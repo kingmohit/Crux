@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol, dl {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	max-width: 1920px;
+	height: auto !important;
+	margin: 0 auto -5px;
+}
+
+.header {
+}
+
+.sidebarleft {
+	float: left;
+	width: 20%;
+	padding-bottom: 10px;
+}
+.content {
+	padding: 10px 0;
+	width: 60%;
+	float: left;
+}
+.sidebarright {
+	float: left;
+	width: 20%;
+	padding: 10px 0;
+}
+
+ul.leftnav {
+	padding: 0 15px 15px 40px;
+	list-style: none;
+	margin-bottom: 15px;
+}
+ul.leftnav li {
+	border-bottom: 1px solid #666;
+}
+ul.leftnav a, ul.nav a:visited { 
+	padding: 5px 5px 5px 15px;
+	display: block;
+	text-decoration: none;
+	color: #000;
+}
+ul.leftnav a:hover, ul.nav a:active, ul.nav a:focus {
+	color: #0FF;
+}
+
+.footer ,.push{
+	height: 5px;
+	clear: both;
+}
+
+.fltrt {
+	float: right;
+	margin-left: 8px;
+}
+.fltlft {
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat {
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
